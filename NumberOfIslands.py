@@ -7,11 +7,8 @@ class Solution:
         if m == 0:
             return count
         
-        
-        
         n = len(grid[0])
         
-            
         def merge( i , j ) -> int :
             # print(grid)
             if i >= m or j >= n or i < 0 or j < 0:
